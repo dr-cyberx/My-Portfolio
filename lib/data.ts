@@ -2,9 +2,13 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
+import diggGrowthImg from "@/public/diggrowth.png";
+import incognitoScout from "@/public/incognito score.png";
+import invoicing from "@/public/invoicing.png";
+import networkon from "@/public/networkOn.png";
+import kiosk from "@/public/kiosk.png";
+import proscore from "@/public/proscore.png";
 
 export const links = [
   {
@@ -38,7 +42,7 @@ export const experiencesData = [
     title: "MERN Stack developer",
     location: "Codedrill Infotech, Chandigarh, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Worked as a full stack Developer contributing over 4 Projects in 1 year.",
     icon: React.createElement(LuGraduationCap),
     date: "2021-2022",
   },
@@ -46,7 +50,7 @@ export const experiencesData = [
     title: "Front-End Engineer",
     location: "Growth Natives, Chandigarh, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer. My stack included React, TypeScript, Tailwind and Redux. I worked on 3 projects in 1 year.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - 2023",
   },
@@ -54,7 +58,7 @@ export const experiencesData = [
     title: "Full-Stack Engineer",
     location: "AECC Global, Chennai, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
@@ -62,25 +66,46 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Incognito Scout",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A football analytics platform. Prediction, weightage, player comparison, strategy making features.basically a full fledge product for football clubs & coaches",
+    tags: ["React", "Next.js", "Node.js", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: incognitoScout,
   },
   {
-    title: "rmtDev",
+    title: "Proscore soccer",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Same as incognito scout but with more modern touch and ui with faster and efficient tools & techniques.",
+    tags: ["React", "Next.js", "Node.js", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: proscore,
   },
   {
-    title: "Word Analytics",
+    title: "DIGG growth",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "DiGGrowth empowers CMOs, performance marketers, and the entire marketing team to become data-driven and take fearless decisions.",
+    tags: ["React", "Next.js", "Tailwind", "Django-REST", "PostgreSQL"],
+    imageUrl: diggGrowthImg,
+  },
+  {
+    title: "Network On",
+    description:
+      "Delivery Management Software that is easy to deploy, is intuitive, and provides exceptional customer experience and operational efficiency.",
+    tags: ["React", "Next.js", "SQL", "Django-REST", "PostgreSQL"],
+    imageUrl: networkon,
+  },
+  {
+    title: "Invoicing/finance system",
+    description:
+      "Aecc Internal product for managing invoices, expenses, and finance. It also has a dashboard for analytics and insights.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer", "AWS"],
+    imageUrl: invoicing,
+  },
+  {
+    title: "Kiosk 2.0",
+    description:
+      "A self checkin kiosk for AECC Global. Student don't have to interact with counsellor they just need to scan QR code fill out the app and do a self checkIn.",
+    tags: ["React", "Next.js", "scss", "AWS", "Tailwind", "Framer"],
+    imageUrl: kiosk,
   },
 ] as const;
 
