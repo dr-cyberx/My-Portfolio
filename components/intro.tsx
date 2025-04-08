@@ -64,13 +64,14 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        👋 <span className="font-bold">Hey there! I'm Vishal,</span> a{" "}
-        <span className="font-bold text-blue-500">Full-Stack Engineer</span> with{" "}
-        <span className="font-bold text-green-500">4+ years</span> of experience. 🚀
-        I specialize in crafting <span className="italic text-orange-500"> beautiful sites </span>
-        and <span className="italic text-purple-500">powerful apps</span> that users love.
-
+        👋 <span className="font-bold">Hey, I’m Vishal —</span>{" "}
+        a <span className="font-bold text-blue-500">Full-Stack Engineer with a frontend superpower ⚡️</span>, backed by{" "}
+        <span className="font-bold text-green-500">4+ years</span> of hands-on experience. 🚀{" "}
+        I build digital experiences that don’t just work — they{" "}
+        <span className="italic text-orange-500">wow</span> and{" "}
+        <span className="italic text-purple-500">win hearts</span>.
       </motion.h1>
+
 
       <div className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-2xl flex justify-center">
         <motion.span
